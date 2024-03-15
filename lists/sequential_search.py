@@ -22,3 +22,4 @@ print(sequential_search (lst,5))
 # If the current element matches the key, it returns the index of that element.
 # If the key is not found in the list, it returns -1.
 # Using else return -1 after the for loop in the sequential search algorithm is redundant because if the loop completes without finding the key, it automatically falls through to the return -1 statement.
+# Time complexity: O(n) for sequential search
