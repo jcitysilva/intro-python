@@ -17,6 +17,17 @@ def sequential_search(lst, key):
 lst = [2, 3, 1, -4, 12, 9]
 print(sequential_search (lst, 1))
 print(sequential_search (lst,5))
+print("_______________________")
+print("                       ")
+
+#OR:
+target = -4
+
+index_seq = sequential_search(lst, target)
+if index_seq != -1:
+    print("Target found at index:", index_seq)
+else:
+    print("Target not found in the list.")
 
 # The sequential_search function iterates through each element of the list.
 # If the current element matches the key, it returns the index of that element.
